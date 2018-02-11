@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#718093"
+    tools:context="com.example.bimstajyer1.clickgame.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Level"
+        android:id="@+id/level"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Necessary Click"
+        android:id="@+id/necessaryclick"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/level"/>
+    <TextView
+        android:id="@+id/timeleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:hint="Time Left"
+        android:textAlignment="center"
+        android:textSize="70dp" />
+
+
+    <Button
+        android:id="@+id/clickbutton"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/timeleft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circularbutton"
+        android:text="ClICK ON ME!"
+        android:textAlignment="center"
+        android:textColor="#fbc531"
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/subbutons"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Score"
+        android:textAlignment="center"
+        android:textSize="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subbutons"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/localhigh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#576574"
+            android:text="YOUR HIGHSCORES"
+            android:textColor="#ced6e0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/restartbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RESTART GAME"
+            android:background="#576574"
+            android:textAlignment="center"
+            android:textColor="#fbc531" />
+
+        <Button
+            android:id="@+id/globalhigh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#576574"
+            android:textColor="#ced6e0"
+            android:layout_weight="1"
+            android:text="GLOBAL HIGHSCORES"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "875749397305",
+    "firebase_url": "https://clickgame-59238.firebaseio.com",
+    "project_id": "clickgame-59238",
+    "storage_bucket": "clickgame-59238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875749397305:android:3766fed93d99d3c2",
+        "android_client_info": {
+          "package_name": "com.example.bimstajyer1.clickgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875749397305-2qi9tn3t2eku6a8cp1ifgolnvbdc12l1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bimstajyer1.clickgame",
+            "certificate_hash": "09fc85538f4f65c9ddc91166c75b743f5a389e3e"
+          }
+        },
+        {
+          "client_id": "875749397305-ia9vl34tknl3n64pqb41bgk8mksrbo7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bimstajyer1.clickgame",
+            "certificate_hash": "ba15afbc486573081c65ac5580244ff7dba27d5a"
+          }
+        },
+        {
+          "client_id": "875749397305-6l1lhnchogfioj2raa4uh9kjv1rp539r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9-_7oDAyci-s38XX4p2sLgIlRL836-_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875749397305-6l1lhnchogfioj2raa4uh9kjv1rp539r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875749397305:android:561175993e991390",
+        "android_client_info": {
+          "package_name": "com.omer.clickgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875749397305-6l1lhnchogfioj2raa4uh9kjv1rp539r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9-_7oDAyci-s38XX4p2sLgIlRL836-_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
